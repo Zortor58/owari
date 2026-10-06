@@ -3311,7 +3311,7 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 45px;
+  gap: 43px;
   top: 20px;
   position: relative;
   z-index: 300;
