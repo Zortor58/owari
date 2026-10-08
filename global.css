@@ -3061,7 +3061,7 @@ html {
   grid-column: 1;
   grid-row: 2;
   position: relative;
-  top: -80px;
+  top: -100px;
   width: 100%;
   margin: 0 0 3px;
   min-height: 0;
@@ -3077,7 +3077,7 @@ html {
   grid-column: 1;
   grid-row: 3;
   position: relative;
-  top: -80px;
+  top: -100px;
   width: 100%;
   margin: 0;
   padding: 18px 15px;
