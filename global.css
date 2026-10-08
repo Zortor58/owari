@@ -3148,13 +3148,13 @@ html {
   column-gap: 25px;
   row-gap: 0;
   align-content: end;
-  background: linear-gradient(transparent 50%, #efe7d5 60%), url(https://i.servimg.com/u/f39/17/67/20/47/76d59610.jpg) top/cover;
+  background: linear-gradient(transparent 52%, #efe7d5 40%), url(https://i.servimg.com/u/f39/17/67/20/47/76d59610.jpg) top/cover;
 }
 .cat-admin-frms .FRM-regles .tleFRM {
   grid-column: 1/-1;
   grid-row: 1;
   position: relative;
-  top: -20px;
+  top: -85px;
   width: auto;
   margin: 0 0 25px 370px;
   justify-self: start;
@@ -3166,7 +3166,7 @@ html {
   grid-column: 1;
   grid-row: 2;
   position: relative;
-  top: -20px;
+  top: -80px;
   width: 100%;
   margin: 0 0 3px;
   min-height: 0;
@@ -3182,7 +3182,7 @@ html {
   grid-column: 1;
   grid-row: 3;
   position: relative;
-  top: -20px;
+  top: -80px;
   width: 100%;
   margin: 0;
   padding: 18px 15px;
@@ -3196,7 +3196,7 @@ html {
   grid-column: 2;
   grid-row: 2/4;
   position: relative;
-  top: -20px;
+  top: -80px;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -3312,7 +3312,7 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   gap: 43px;
-  top: 20px;
+  top: -15px;
   position: relative;
   z-index: 300;
 }
