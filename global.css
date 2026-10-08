@@ -591,14 +591,11 @@ a.mainmenu {
 .boxRPG span,
 .btn_surveiller,
 .cat-admin-frms .lmsgFRM,
-.datePOST,
-.infoPOST span,
 .lmsgFRM,
 .mp_nav a,
 .mp_nav span,
 .nameLMBER,
 .namePFIL,
-.namePOST,
 .navPOST a,
 .nav_search .nav,
 .pa_lastpost_titre,
@@ -606,7 +603,6 @@ a.mainmenu {
 .pa_news_wrap,
 .pa_vote_box,
 .profilwrap th,
-.rankPOST,
 .search_wrap > tbody > tr:first-child > td > h1,
 .secondarytitle,
 .secondarytitle h2,
@@ -1427,7 +1423,6 @@ table[width="800px"] {
 }
 #qeel-stats,
 #qeel-stats2 div,
-.abtPOST a,
 .tleSBJ {
   letter-spacing: 1px;
 }
@@ -1492,9 +1487,7 @@ table[width="800px"] {
   text-align: left;
 }
 .descSBJ,
-.gotoSBJ,
-.ktactPOST,
-.rankPOST {
+.gotoSBJ {
   display: inline-block;
   vertical-align: middle;
 }
@@ -1517,7 +1510,6 @@ table[width="800px"] {
 .pa_vote_box,
 .qeel24_titre div,
 .repSBJ,
-.topPOST,
 .vuesSBJ {
   text-align: center;
 }
@@ -1526,7 +1518,6 @@ table[width="800px"] {
 #qeel-stats,
 #qeel-titre h2,
 #tlePOST,
-.boxPOST,
 .qeel_titre {
   text-align: right;
 }
@@ -2013,12 +2004,10 @@ h2 {
 }
 #recent_topics,
 #tlePOST,
-.infoPOST span,
 .pa_lastpost_titre,
 .pa_news,
 .pa_news_titre,
 .pa_news_wrap,
-.topPOST,
 h2.post-content,
 h3.post-content {
   font-family: Lora;
@@ -2043,7 +2032,6 @@ h3.post-content {
   font-weight: 500;
   letter-spacing: 1px;
 }
-.infoPOST,
 .navPOST a {
   font-family: Lora !important;
 }
@@ -2122,9 +2110,6 @@ h3.post-content {
   font-size: 25px;
   letter-spacing: 6px;
 }
-.abtPOST a,
-.infoPOST,
-.infoPOST span,
 .navPOST a,
 .pa_news_wrap a {
   font-weight: 700;
@@ -2165,88 +2150,11 @@ h3.post-content {
 .navPOST a {
   display: initial !important;
 }
-.abtPOST a,
-.infoPOST span,
-div.namePOST > strong > a > span {
-  color: #e8e8ee !important;
-}
-.topPOST {
-  background: #000;
-  padding-bottom: 15px;
-  position: relative;
-  height: 313px;
-}
-.triPOST {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 82%;
-  height: 100px;
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-}
-.avaPOST {
-  box-sizing: revert;
-  z-index: 300;
-  position: ABSOLUTE;
-  top: 30px;
-  left: 50px;
-  width: 250px;
-  overflow: hidden;
-  height: 320px;
-}
-.avaPOST img {
-  min-width: 250px !important;
-}
-.boxPOST {
-  padding-left: 344px;
-  padding-right: 50px;
-  width: 100%;
-  height: 211px;
-  padding-top: 100px;
-}
-.namePOST {
-  font-size: 42px;
-  line-height: 42px;
-}
-.ktactPOST {
-  text-align: left;
-  width: 600px;
-  float: left;
-  position: absolute;
-  left: 344px;
-  top: 135px;
-}
-.ktactPOST img {
-  max-height: 25px;
-  filter: grayscale(1);
-}
-.rankPOST {
-  margin-right: 1%;
-  width: 49%;
-  text-align: right;
-}
-.infoPOST,
-.rpgPOST {
-  text-align: left;
-  font-size: 11px;
-  color: #fff;
-}
-.abtPOST {
-  display: block;
-  text-align: left;
-}
-.infoPOST {
-  margin: 2px 0;
-}
 .news_cadre,
 .news_souscadre,
 .prez_texte {
   margin-right: auto;
   padding: 5px;
-}
-.rpgPOST {
-  margin-top: 5px;
-  width: 97%;
 }
 .postbody {
   font-family: Lora;
@@ -2256,22 +2164,9 @@ img,
 table.bodylinewidth {
   max-width: 100%;
 }
-.datePOST {
-  background: #fff;
-  font-family: Lora;
-}
 #imgLMBER:hover .stsLMBER,
-.datePOST img,
 .pa_wrap .pa-fleche:hover {
   opacity: 1;
-}
-.toolsPOST1 {
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  text-align: right;
-  padding-right: 50px;
-  padding-top: 10px;
 }
 #abtPFIL,
 #adminPFIL,
@@ -2287,19 +2182,19 @@ table.bodylinewidth {
   bottom: 6px;
   left: 11px;
 }
-.bgAdministrateur .topPOST {
+.bgAdministrateur .sidePOST {
   background-image: url(https://zupimages.net/up/20/38/yixi.png) !important;
 }
-.msg_rang_konoha .topPOST {
+.msg_rang_konoha .sidePOST {
   background-image: url(https://zupimages.net/up/20/38/1me2.png) !important;
 }
-.msg_rang_suna .topPOST {
+.msg_rang_suna .sidePOST {
   background-image: url(https://zupimages.net/up/20/38/tkso.png) !important;
 }
-.msg_rang_kumo .topPOST {
+.msg_rang_kumo .sidePOST {
   background-image: url(https://zupimages.net/up/20/38/osfu.png) !important;
 }
-.msg_rang_nukenin .topPOST {
+.msg_rang_nukenin .sidePOST {
   background-image: url(https://zupimages.net/up/20/38/0etf.png) !important;
 }
 .pa_wrap .pa-slide,
@@ -4080,27 +3975,6 @@ table[width="800px"] {
     width: 26px;
     height: 26px;
   }
-  .avaPOST {
-    left: 20px;
-    width: 180px;
-    height: 230px;
-  }
-  .avaPOST img {
-    min-width: 180px !important;
-  }
-  .boxPOST {
-    padding-left: 225px;
-    padding-right: 20px;
-  }
-  .ktactPOST {
-    left: 225px;
-    width: auto;
-    right: 20px;
-  }
-  .namePOST {
-    font-size: 30px;
-    line-height: 32px;
-  }
   .postbody {
     overflow-wrap: anywhere;
   }
@@ -4161,54 +4035,12 @@ table[width="800px"] {
   .logo_banner img {
     height: 80px;
   }
-  .topPOST {
-    height: auto;
-  }
-  .avaPOST {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 160px;
-    height: 205px;
-    margin: 20px auto 0;
-  }
-  .avaPOST img {
-    min-width: 100% !important;
-    width: 100%;
-  }
-  .boxPOST {
-    height: auto;
-    padding: 15px 15px 0;
-    text-align: center;
-  }
-  .namePOST {
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .rankPOST {
-    padding-right: 0;
-    text-align: center;
-  }
-  .ktactPOST {
-    position: static;
-    float: none;
-    width: auto;
-    text-align: center;
-    margin-top: 8px;
-  }
   .postbody {
     padding: 20px !important;
-  }
-  .toolsPOST1 {
-    text-align: center !important;
   }
   .navPOST {
     display: block;
     text-align: center;
-  }
-  .datePOST>div {
-    width: 100% !important;
-    text-align: center !important;
   }
   form[name=jumpbox] td,
   table.noprint td {
@@ -4406,78 +4238,14 @@ td.pagination strong {
   background: #3a3832;
   color: #efe7d5;
 }
-table[style*="max-width:1000px"] .gensmall a {
+table[style*="max-width:1000px"] .gensmall:not(.btn_surveiller) a {
   color: #3a3832 !important;
 }
-table[style*="max-width:1000px"] .gensmall a:hover {
+table[style*="max-width:1000px"] .gensmall:not(.btn_surveiller) a:hover {
   color: #93898f !important;
 }
 /* ---- Bandeau de l'auteur ---- */
-table.forumline:has(.topPOST) {
-  background: transparent;
-  padding: 0;
-}
-.topPOST {
-  background-color: #3a3832;
-  border-radius: 30px 30px 0 0;
-  box-shadow: inset 0 -1px 0 rgba(239,231,213,.15);
-}
-.topPOST {
-  background-image: radial-gradient(ellipse at 85% 0%,#5c554b 0%,rgba(58,56,50,0) 65%);
-}
-.triPOST {
-  background: #efe7d5;
-  opacity: .07;
-  border-radius: 30px 0 0 0;
-}
-.avaPOST {
-  border: 5px solid #efe7d5;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,.35);
-}
-.namePOST {
-  font-family: Lora;
-  font-weight: 400;
-  letter-spacing: 5px;
-}
-.namePOST strong {
-  font-weight: 400;
-}
-div.namePOST>strong>a>span {
-  color: #efe7d5 !important;
-}
-.rankPOST {
-  color: #d0cbc4;
-  font-family: Lora;
-  font-size: 10px;
-  letter-spacing: 3px;
-}
-.ktactPOST img {
-  opacity: .7;
-  transition: opacity .3s;
-}
-.ktactPOST img:hover {
-  opacity: 1;
-}
-.infoPOST {
-  color: #efe7d5;
-  font-weight: 400 !important;
-  font-size: 10px;
-  letter-spacing: 1px;
-  border-bottom: 1px solid rgba(239,231,213,.25) !important;
-  border-bottom-color: rgba(239,231,213,.25) !important;
-  padding: 4px 0;
-}
-.infoPOST span {
-  color: #a99995 !important;
-  font-weight: 400;
-}
 /* ---- Barre d'outils au-dessus du message ---- */
-.toolsPOST1 {
-  background: #efe7d5;
-  padding: 10px 40px !important;
-  min-height: 44px;
-}
 /* ---- Corps du message ---- */
 .postbody {
   background: #fbf9f5;
@@ -4588,18 +4356,6 @@ h4.post-content:before {
   background: linear-gradient(90deg,rgba(208,203,196,0),#d0cbc4 50%,rgba(208,203,196,0)) center top/60% 1px no-repeat;
 }
 /* ---- Pied du message ---- */
-.datePOST {
-  background-color: #3a3832 !important;
-  color: #d0cbc4;
-  font-weight: 400;
-  font-size: 10px;
-  letter-spacing: 2px;
-  padding: 12px 40px;
-  border-radius: 0 0 30px 30px;
-}
-.datePOST a {
-  color: #efe7d5;
-}
 td.browse-arrows {
   padding: 12px 0 45px;
   font-family: Lora;
@@ -4702,19 +4458,191 @@ input.button2:hover,
     font-size: 19px;
     letter-spacing: 3px;
   }
-  .datePOST {
-    padding: 10px 20px;
-  }
 }
 @media (max-width:600px) {
-  .topPOST {
-    border-radius: 20px 20px 0 0;
-  }
-  .datePOST {
-    border-radius: 0 0 20px 20px;
-  }
   .postbody {
     padding: 20px 18px !important;
     text-align: left;
+  }
+}
+/* ======================================================================
+   MESSAGES : profil de l'auteur sur le côté
+   ----------------------------------------------------------------------
+   Structure (template viewtopic_body) :
+   .wrapPOST  = la carte du message
+     .sidePOST  = colonne de gauche (avatar, nom, rang, contacts, champs)
+     .mainPOST  = colonne de droite (outils, texte, barre de date)
+   Sous 800px de large, la colonne de gauche passe au-dessus du message.
+   ====================================================================== */
+/* ---- La carte ---- */
+table.forumline:has(.wrapPOST) {
+  background: transparent;
+  padding: 0;
+}
+td.cellPOST {
+  padding: 0;
+}
+.ancrePOST {
+  position: relative;
+  top: -60px;
+  display: block;
+}
+.wrapPOST {
+  display: flex;
+  align-items: stretch;
+  background: #fbf9f5;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(58, 56, 50, 0.12);
+}
+/* ---- Colonne de gauche : profil ---- */
+.sidePOST {
+  flex: 0 0 260px;
+  box-sizing: border-box;
+  padding: 35px 22px 30px;
+  background-color: #3a3832;
+  background-image: radial-gradient(ellipse at 50% 0%, #5c554b 0%, rgba(58, 56, 50, 0) 70%);
+  color: #efe7d5;
+  font-family: Lora;
+  text-align: center;
+}
+.avaPOST {
+  width: 200px;
+  height: 256px;
+  margin: 0 auto 22px;
+  overflow: hidden;
+  border: 5px solid #efe7d5;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+.avaPOST img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.namePOST {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+.namePOST strong {
+  font-weight: 400;
+}
+.namePOST a,
+.namePOST a span {
+  color: #efe7d5 !important;
+}
+.rankPOST {
+  margin: 8px 0 16px;
+  color: #d0cbc4;
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.ktactPOST {
+  margin-bottom: 18px;
+}
+.ktactPOST img {
+  max-height: 22px;
+  margin: 0 2px;
+  filter: grayscale(1);
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.ktactPOST img:hover {
+  opacity: 1;
+}
+.abtPOST {
+  text-align: left;
+}
+.infoPOST {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(239, 231, 213, 0.2);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.infoPOST span {
+  color: #a99995;
+}
+.abtPOST a {
+  color: #efe7d5;
+}
+.rpgPOST {
+  margin-top: 12px;
+  font-size: 10px;
+  text-align: left;
+}
+/* ---- Colonne de droite : message ---- */
+.mainPOST {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-width: 0;
+}
+.toolsPOST1 {
+  padding: 10px 30px;
+  background: #efe7d5;
+  text-align: right;
+}
+.mainPOST .postbody {
+  flex: 1 1 auto;
+}
+/* ---- Barre de date (bas du message) ---- */
+.datePOST {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 30px;
+  background-color: #3a3832;
+  color: #d0cbc4;
+  font-family: Lora;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.datePOST a {
+  color: #efe7d5;
+}
+.datePOST img {
+  opacity: 1;
+}
+.toolsPOST {
+  text-align: right;
+}
+/* ---- Tablette et téléphone : profil au-dessus du message ---- */
+@media (max-width: 800px) {
+  .wrapPOST {
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  .sidePOST {
+    flex: 0 0 auto;
+    padding: 25px 20px;
+  }
+  .avaPOST {
+    width: 150px;
+    height: 192px;
+  }
+  .abtPOST {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .toolsPOST1 {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .datePOST {
+    flex-direction: column;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .toolsPOST {
+    text-align: center;
   }
 }
