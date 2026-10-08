@@ -4511,6 +4511,7 @@ td.cellPOST {
   height: 400px;
   margin: 15px auto 22px;
   overflow: hidden;
+  border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
 .avaPOST img {
