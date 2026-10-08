@@ -3148,7 +3148,7 @@ html {
   column-gap: 25px;
   row-gap: 0;
   align-content: end;
-  background: linear-gradient(transparent 52%, #efe7d5 40%), url(https://i.servimg.com/u/f39/17/67/20/47/76d59610.jpg) top/cover;
+  background: linear-gradient(transparent 40%, #efe7d5 54%), url(https://i.servimg.com/u/f39/17/67/20/47/76d59610.jpg) top/cover;
 }
 .cat-admin-frms .FRM-regles .tleFRM {
   grid-column: 1/-1;
